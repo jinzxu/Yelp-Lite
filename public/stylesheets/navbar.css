@@ -1,0 +1,61 @@
+.navbar{
+    padding: 2rem 3rem 2rem;
+}
+
+.nav-link{
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link.active{
+    color: white;
+    border-bottom-color: white;
+}
+
+.nav-link-login{
+    padding: 0.4rem 0.75rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.nav-link-register{
+    padding: 0.4rem 0.75rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+    border: 2px solid red;
+    background: red;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.nav-link-logout{
+    padding: 0.5rem 0.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+    /*border: 2px solid red;*/
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn-secondary, .btn-secondary:hover{
+    color: #333;
+    text-shadow: none;
+}
