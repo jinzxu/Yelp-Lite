@@ -8,7 +8,7 @@
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "Ethan Nguyen",
+  "author": "Jason Xu",
   "license": "ISC",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.13.3",
